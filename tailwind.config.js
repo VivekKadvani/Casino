@@ -6,6 +6,10 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      'vesting': ['Bruno Ace SC', 'Georgia, Cambria', 'Times New Roman', 'Times', 'serif'],
+      'casino': ['Goldman', 'cursive', 'Times New Roman', 'Times', 'serif']
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
